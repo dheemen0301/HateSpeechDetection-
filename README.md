@@ -1,7 +1,7 @@
 # HateSpeechDetection-
 ## Introduction
 ***
-Hate speech implies any form of content which expresses hate towards anything in a harsh manner. It can be in the form of both writing & speaking. Generally, on social media, there are some disturbing elements(especially fake accounts) that spread hatred targeting a specific domain ( it may be a person, group of persons, ideologies, or anything else) . Social Media sites face the problem of identifying and censoring problematic posts while weighing the right to freedom of speech. Hate speech detection is used to identify such texts/write-ups which express hate so that proper actions can be taken against it.
+Any sort of content that harshly displays hatred for anything is considered hate speech. It can take the form of either speech or writing. Generally speaking, there are certain unsettling components on social media, especially fake accounts, that spread hatred toward a particular target (it might be a person, a group of people, an ideology, or anything else). Social media platforms struggle with the challenge of identifying and removing offensive content while maintaining the right to free speech. To find texts or writings that indicate hate so that suitable counteractions can be made, hate speech detection is utilised.
 
 ## Objectives
 ***
@@ -24,8 +24,8 @@ The method that we are going to use to achieve our objectives are detailed below
 
 2. **Preprocessing data :**
 - The words of the cleaned dataset are tokenized using a word tokenizer.
-- Both stemming and lemmatization are applied over the word tokens and are stored.
-- Thereafter we used methods such as BoW, Tf-If ( on both stemmed and lemmatized data)  in order to vectorize our data.
+- The word tokens are subjected to stemming and lemmatization, and they are stored.
+- After that, we vectorize our data using techniques like BoW and Tf-If (on both stemmed and lemmatized data).
 
 3. **Model :**
 
